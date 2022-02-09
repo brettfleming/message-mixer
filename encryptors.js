@@ -17,7 +17,7 @@ const caesarCipher = (str, amount = 0) => {
     }
     return output;
   };
-  
+
   const symbolCipher = (str) => {
     const symbols = {
       'i': '!',
@@ -58,6 +58,6 @@ const caesarCipher = (str, amount = 0) => {
   };
 
 
-module.exports.ceasarCipher = ceasarCipher
+module.exports.caesarCipher = caesarCipher
 module.exports.symbolCipher = symbolCipher
 module.exports.reverseCipher = reverseCipher
