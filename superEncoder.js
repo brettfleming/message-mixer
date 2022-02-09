@@ -2,7 +2,7 @@ const encryptors = require('./encryptors.js');
 const {caesarCipher, symbolCipher, reverseCipher} = encryptors
 
 const encodeMessage = (str) => {
-
+    return reverseCipher(symbolCipher(caesarCipher(str, 15)))
     
   }
   
