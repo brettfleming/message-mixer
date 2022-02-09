@@ -7,7 +7,7 @@ const encodeMessage = (str) => {
   }
   
   const decodeMessage = (str) => {
-
+    return caesarCipher(symbolCipher(reverseCipher(str)), -15)
     
   }
   
