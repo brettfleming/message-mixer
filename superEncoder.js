@@ -1,11 +1,12 @@
+//rewuiring in the right assests
 const encryptors = require('./encryptors.js');
 const {caesarCipher, symbolCipher, reverseCipher} = encryptors
-
+//encoding the message with all of the cypers
 const encodeMessage = (str) => {
     return reverseCipher(symbolCipher(caesarCipher(str, 15)))
     
   }
-  
+  //decoding the message with all of the cypers but in reverse 
   const decodeMessage = (str) => {
     return caesarCipher(symbolCipher(reverseCipher(str)), -15)
     
