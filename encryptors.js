@@ -57,7 +57,7 @@ const caesarCipher = (str, amount = 0) => {
      return words.join(' ');
   };
 
-
+//exporting all of the ciphers 
 module.exports.caesarCipher = caesarCipher
 module.exports.symbolCipher = symbolCipher
 module.exports.reverseCipher = reverseCipher
