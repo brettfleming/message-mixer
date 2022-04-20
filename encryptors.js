@@ -1,5 +1,6 @@
 const caesarCipher = (str, amount = 0) => {
     if (amount < 0) {
+      //this cipher changes letter to the letter that is the amount away from the original 
       return caesarCipher(str, amount + 26);
     }
     let output = '';
