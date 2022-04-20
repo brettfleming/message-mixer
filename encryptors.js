@@ -17,7 +17,7 @@ const caesarCipher = (str, amount = 0) => {
     }
     return output;
   };
-
+//this cipher replaces letters with a symbol that looks simlar
   const symbolCipher = (str) => {
     const symbols = {
       'i': '!',
