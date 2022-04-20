@@ -48,7 +48,7 @@ const caesarCipher = (str, amount = 0) => {
     }
     return output;
   }
-  
+  //this cipher splits everthing up and reverses the string using the reverse method
   const reverseCipher = (sentence) => {
     let words = sentence.split(' ');
     for (let i = 0; i < words.length; i++) {
